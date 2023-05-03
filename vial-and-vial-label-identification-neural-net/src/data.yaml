@@ -1,0 +1,5 @@
+train: ../swap_data/label/train/images
+val: ../swap_data/label/valid/images
+
+nc: 4
+names: ['Vial', 'Vial Label']
