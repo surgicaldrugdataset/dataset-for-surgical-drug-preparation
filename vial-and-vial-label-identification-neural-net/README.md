@@ -16,30 +16,6 @@ pip install -r requirements.txt  # install
 
 </details>
 
-<details open>
-<summary>Inference</summary>
-
-Inference with med detector.
-
-```python
-import torch
-
-# Model
-model = torch.hub.load('ultralytics/yolov5', 'yolov5s')  # or yolov5m, yolov5l, yolov5x, custom
-
-# Images
-img = 'https://ultralytics.com/images/zidane.jpg'  # or file, Path, PIL, OpenCV, numpy, list
-
-# Inference
-results = model(img)
-
-# Results
-results.print()  # or .show(), .save(), .crop(), .pandas(), etc.
-```
-
-</details>
-
-
 
 <details>
 <summary>Inference with detect.py</summary>
