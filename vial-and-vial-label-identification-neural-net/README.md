@@ -26,7 +26,7 @@ python detect.py --source 0  # webcam
                           'https://youtu.be/Zgi9g1ksQHc'  # YouTube
                           'rtsp://example.com/media.mp4'  # RTSP, RTMP, HTTP stream
 ```
-
+<img width="800" src="./models/results_5x_inference.png">
 </details>
 
 <details>
