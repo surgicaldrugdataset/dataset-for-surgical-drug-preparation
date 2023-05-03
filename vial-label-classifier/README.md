@@ -1,4 +1,3 @@
-
 ### Install dependencies 
 
 ```bash
@@ -23,12 +22,10 @@ pip install tqdm
 
 ### Step 2: Run
 
-We run this which gets 98%.
+We run this which gets 99%.
 ```bash
 python src/finetune.py --data-location <path to folder containing train and test> --batch-size 128 --model ViT-L/14
 ```
 
 We run the code above with 4 A40 GPUs. Feel free to also try with a smaller model `--model ViT-B/32`.
-
-### Credit to Mitchell Noss Wortsman @https://github.com/mitchellnw/med-ft
 
