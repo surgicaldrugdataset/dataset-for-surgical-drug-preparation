@@ -41,6 +41,6 @@ python train.py --data data.yaml --cfg yolov5n.yaml --weights '' --batch-size 12
                                        yolov5x                                16
 ```
 
-<img width="800" src="./models/PR_Curve.png">
+<img width="800" src="./models/results.png">
 
 </details>
