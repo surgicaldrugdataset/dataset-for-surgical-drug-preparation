@@ -4,8 +4,8 @@
 
 
 ```bash
-git clone https://github.com/surgicaldrugdataset/med-detector  # clone
-cd yolov5
+git clone https://github.com/surgicaldrugdataset/dataset-for-surgical-drug-preparation.git # clone
+cd vial-and-vial-label-identification-neural-net/src
 pip install -r requirements.txt  # install
 ```
 
@@ -18,7 +18,7 @@ pip install -r requirements.txt  # install
 `detect.py` runs inference on a variety of sources, getting models as requested from surgicaldrugdataset@gmail.com and saving results to `runs/detect`.
 
 ```bash
-python detect.py --source 0  # webcam
+python detect.py  --weights best_vial_label.pt --img 416 --source 0  # webcam
                           img.jpg  # image
                           vid.mp4  # video
                           path/  # directory
