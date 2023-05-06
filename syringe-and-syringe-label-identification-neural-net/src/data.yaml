@@ -1,0 +1,5 @@
+train: /Volumes/SLOANE/train/images
+val: /Volumes/SLOANE/valid/images
+
+nc: 2
+names: ['Syringe','Label']
